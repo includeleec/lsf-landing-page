@@ -1,0 +1,29 @@
+// All Css Here
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import "../public/assets/css/plugins.css";
+@import "../public/assets/scss/style";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import 'node_modules/react-modal-video/scss/modal-video.scss';
+
+.logo {
+    -webkit-animation:myRotate 10s linear infinite;
+    animation:myRotate 10s linear infinite;
+}
+@-webkit-keyframes myRotate{
+    0%{ -webkit-transform: rotate(0deg);}
+    50%{ -webkit-transform: rotate(180deg);}
+    100%{ -webkit-transform: rotate(360deg);}
+}
+@keyframes myRotate{
+    0%{ -webkit-transform: rotate(0deg);}
+    50%{ -webkit-transform: rotate(180deg);}
+    100%{ -webkit-transform: rotate(360deg);}
+}
+.banner-bg {
+    width: 310px;
+    height: 300px;
+    margin: -100px auto 0;
+    background: url('../public/assets/images/logo/lsf-logo.png') 0 0 no-repeat;
+    background-size: cover;
+}
