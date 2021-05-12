@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn, FaTelegram} from "react-icons/fa";
+import {FaTelegram} from "react-icons/fa";
 
 const SocialShare = [
     {Social: <FaTelegram /> , link: 'https://t.me/lossfinance'},

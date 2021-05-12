@@ -10,7 +10,7 @@ import './index.scss';
 
 
 // Home layout
-import Demo from './page-demo/Demo';
+// import Demo from './page-demo/Demo';
 // import MainDemo from './home/MainDemo';
 // import Startup from './home/Startup';
 // import Paralax from './home/Paralax';
@@ -58,7 +58,7 @@ import error404 from "./elements/error404";
 // import Columns from "./blocks/Columns";
 // import PricingTable from "./blocks/PricingTable";
 
-import { BrowserRouter, Switch, Route, Redirect  } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 import './i18n'
 
