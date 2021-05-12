@@ -3,11 +3,6 @@ import { FiCast , FiLayers , FiUsers , FiMonitor } from "react-icons/fi";
 
 const ServiceList = [
     {
-        icon: <FiCast />,
-        title: '介绍：',
-        description: '无私募无空投无预挖，唯一获得方式就是买币 买入即亏损，只能坐等翻倍，不翻倍就是亏，转账收取50%手续费，买币没有手续费，卖币额外收取100%手续费（等同于50%手续费）。手续费空投给所有持币用户，持币即挖矿手续费随持币人数增加而线性降低，达到20万人，手续费降为0%。'
-    },
-    {
         icon: <FiLayers />,
         title: '买币方法：',
         description: '所有的LSF已转入pancakeswap自由流通，开发者也需要从swap买币',
