@@ -212,7 +212,7 @@ class CreativeLanding extends Component {
                                                 <div className="row">
                                                     <div className="col-lg-12">
                                                         <p className="description">
-                                                        Contracts Address（BSC）：<a href="https://bscscan.com/token/0x7A95330742e203a2e14e4b0EbD765E03883b7508" target="__blank">0x7A95330742e203a2e14e4b0EbD765E03883b7508</a>
+                                                        Contract Address（BSC）：<a href="https://bscscan.com/token/0x7A95330742e203a2e14e4b0EbD765E03883b7508" target="__blank">0x7A95330742e203a2e14e4b0EbD765E03883b7508</a>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -393,7 +393,9 @@ class CreativeLanding extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <h4>most of code is opensource, some parts will be opensource after audit</h4>
+                            <br />
+                            <br />
+                            <p>most of code is opensource, some parts will be opensource after audit</p>
                             {/* <div className="row">
                                 <div className="col-lg-12">
                                     <div className="slick-space-gutter--15 slickdot--20">
