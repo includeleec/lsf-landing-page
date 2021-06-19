@@ -20,7 +20,7 @@ const SlideList = [
         category: "欢迎加入",
         title: "LOSS.Finance ",
         description:
-            "在DEFI世界里，土狗是仿盘的意思，LSF也是模仿了safemoon，pig等项目，并进行魔改创新在我们的价值观里，土狗代表实诚，不坑不骗是底线，也喜欢坐等发财。",
+            "Loss is an innovative DEFI project, which explores a fair and sustainable development of the economic model, as well as the radical incentive mechanism to achieve the goal. The value of LOSS comes from the community, and more people is the value.",
         buttonText: "Contact Us",
         buttonLink: "/contact",
     },
@@ -113,7 +113,7 @@ class CreativeLanding extends Component {
                                 <a href="/">
                                     <img
                                         className=""
-                                        src="/assets/images/logo/lsf-logo.png"
+                                        src="/assets/images/logo/losslogo_s.png"
                                         alt="Logo Images"
                                         style={{ width: 50, height: 50 }}
                                     />
@@ -139,11 +139,11 @@ class CreativeLanding extends Component {
                                     offset={-200}
                                 >
                                     <li>
-                                        <a href="#home">首页</a>
+                                        <a href="#home">home</a>
                                     </li>
                                     {/* <li><a href="#service">Service</a></li> */}
                                     <li>
-                                        <a href="#about">关于</a>
+                                        <a href="#about">about</a>
                                     </li>
                                     {/* <li><a href="#portfolio">Portfolio</a></li>
                                     <li><a href="#team">Team</a></li>
@@ -179,7 +179,7 @@ class CreativeLanding extends Component {
 
                 {/* Start Slider Area   */}
                 <div className="slider-activation slider-creative-agency" id="home">
-                    <div className="bg_image" data-black-overlay="6">
+                    <div className="bg_image" data-black-overlay="0">
                         {SlideList.map((value, index) => (
                             <div
                                 className="slide slide-style-2 slider-paralax d-flex align-items-center justify-content-center"
@@ -211,9 +211,8 @@ class CreativeLanding extends Component {
 
                                                 <div className="row">
                                                     <div className="col-lg-12">
-
                                                         <p className="description">
-                                                            合约地址（BSC）：<a href="https://bscscan.com/token/0x7231ec0591e97daa4ba72ece128b178c7279e0ee" target="__blank">0x7231ec0591e97dAA4Ba72EcE128b178C7279E0eE</a>
+                                                        Contracts Address（BSC）：<a href="https://bscscan.com/token/0x7A95330742e203a2e14e4b0EbD765E03883b7508" target="__blank">0x7A95330742e203a2e14e4b0EbD765E03883b7508</a>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -237,14 +236,11 @@ class CreativeLanding extends Component {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="section-title service-style--3 text-left mb--15 mb_sm--0">
-                                        <h2 className="title">介绍</h2>
-                                        <p>无私募无空投无预挖，唯一获得方式就是买币</p>
-                                        <p>买入即亏损，只能坐等翻倍，不翻倍就是亏</p>
+                                        <h2 className="title">Goal</h2>
+                                        <p>1. Clear objectives: the goal of LOSS is to reach 200000 active users.</p>
+                                        <p>2. No Achieving No Gain: the initial supply is 100 million LOSS, with 10 BNB in swap liquidity, and the lptoken is locked by smart contract, if the active users are less than 200000, the team cannot remove the liquidity.</p>
                                         <p>
-                                            转账收取50%手续费，买币没有手续费，卖币额外收取100%手续费（等同于50%手续费）。手续费空投给所有持币用户，持币即挖矿
-                                        </p>
-                                        <p>
-                                            手续费随持币人数增加而线性降低，达到20万人，手续费降为0%
+                                        3. There is a reward for achieving the goal: when 200000 users are reached, the project team will remove lptoken, and it is expected that there will be a lot of BNB and not too much LOSS. Most of them will be used for value management, and a small amount will be rewarded to those who make outstanding contributions to the LOSS.
                                         </p>
                                     </div>
                                 </div>
@@ -257,32 +253,147 @@ class CreativeLanding extends Component {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="section-title service-style--3 text-left mb--15 mb_sm--0">
-                                        <h2 className="title">创世宣言</h2>
+                                        <h2 className="title">Mechanism</h2>
                                         <p>
-                                            土狗代表不起眼的魔改项目，也代表梦想一夜暴富的草根精神
+                                        For everyone to have the same goal, transfer or sell LOSS, cost 100% fee !
                                         </p>
+                                        <p>
+                                        Buy is a loss, this is the origin of LOSS !
+                                        </p>
+                                        <p>
+                                        Fee decreases linearly with the increase of active users, reaching 200000, the fee is permanently reduced to 2%.
+                                        </p>
+                                        <p>
+                                        Fee is used for the following:
+                                        </p>
+                                        <p>
+                                        1. 50% immediately destroyed, deflation.
+                                        </p>
+                                        <p>
+                                            2. 50% into reward pool for liquidity mining.
+                                        </p>
+                                        <p>
+                                        send 12 LOSS ----- transfer 24 LOSS
 
-                                        <p>
-                                            土狗项目通常由底层打工人发起，比如我们，没啥钱去上交易所，没有资方，不会拉盘。但是打过技术的工，会开发自己的交易所以及各种DEFI衍生项目
+                                        </p>
+                                        <p style={{marginLeft: 50}}>
+                                        |---- receive 12 LOSS
+                                        </p>
+                                        <p style={{marginLeft: 50}}>
+                                        |---- fee 12 LOSS (100%)
+                                        </p>
+                                        <p style={{marginLeft: 100}}>
+                                        |--- 6 LOSS destroyed
+                                        </p>
+                                        <p style={{marginLeft: 100}}>
+                                        |--- 6 LOSS into reward pool
                                         </p>
                                         <p>
-                                            在DEFI世界里，土狗是仿盘的意思，LSF也是模仿了safemoon，pig等项目，并进行魔改创新
+                                        For example, send 12 LOSS and 24 LOSS are actually transferred out, of which 6 are transferred into black hole destruction, 6 are transferred into reward pool and 12 are actually received.
+                                                *There is no fee for buying and liquidity mining.
                                         </p>
-                                        <p>
-                                            在我们的价值观里，土狗代表实诚，不坑不骗是底线，也喜欢坐等发财
-                                        </p>
-                                        <p>
-                                            如果你在币圈被割了，如果你生活不如意，买点LSF吧，在社区里一起唏嘘往事，然后坐等回本
-                                        </p>
-
-                                        <p>我们是一群中年程序员，想到什么有趣的，我们就开发什么</p>
-                                        <p>
-                                            我们希望能建立一个LSF社区，花几碗螺蛳粉的钱买点币放着就好了，亏了也没啥大不了，反正手续费那么高卖了心里也难受，就看着币价每天涨，心里舒服，如果币价跌了，那就是有人卖币了，持币人收到手续费分红也蛮开心的
-                                        </p>
-                                        <p>别重仓LSF，我们除了技术和瞎逼逼，别的没啥本事</p>
                                     </div>
                                 </div>
                             </div>
+                            <br />
+                            <br />
+                            <br />
+                            <div className="row">
+                                <div className="col-lg-12">
+                                    <div className="section-title service-style--3 text-left mb--15 mb_sm--0">
+                                        <h2 className="title">Mining</h2>
+                                        <p>
+                                        Unlike BTC and SUSHI, which mined by time, LOSS is mined by the growth of active users.
+                                        </p>
+                                        <p>
+                                        Every time an active user is coming, 1 million LOSS will be mined to:
+                                        </p>
+                                        <p>
+                                        1. 80% into reward pool for liquidity mining.
+                                        </p>
+                                        <p>
+                                        2. 20% into swap for liquidity.
+                                        </p>
+                                        <p>
+                                        With 200000 active users, there is no longer inflation, only deflation.
+                                        </p>
+                                        <p style={{marginLeft: 50}}>
+                                        Mined 1M LOSS
+                                        </p>
+                                        <p style={{marginLeft: 100}}>
+                                        |----- 80% into reward pool for liquidity mining
+                                        </p>
+                                        <p style={{marginLeft: 100}}>
+                                        |----- 20% into swap for liquidity
+                                        </p>
+                                        <p>
+                                        *Active users --- in order to avoid the amount of robot brushing, only those who hold more than 100000 LOSS is regarded as active user.
+                                        </p>
+                                        <p>
+                                        *1 million LOSS --- calculated according to the average investment of 0.1 BNB of each active user, 1 million LOSS will be mined to curb the sharp rise of LOSS price.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <br />
+                            <br />
+                            <div className="row">
+                                <div className="col-lg-12">
+                                    <div className="section-title service-style--3 text-left mb--15 mb_sm--0">
+                                        <h2 className="title">Airdrop</h2>
+                                        <p>
+                                        In order to give newbie a try, airdrop users are also needed.
+                                        </p>
+                                        <p>
+                                        Through the faucet page, users can pay the gas fee to get a little LOSS.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <br />
+                            <br />
+                            <div className="row">
+                                <div className="col-lg-12">
+                                    <div className="section-title service-style--3 text-left mb--15 mb_sm--0">
+                                        <h2 className="title">Q&A</h2>
+                                        <storng>
+                                         <b> What are the benefits of the project team?</b> 
+                                        </storng>
+                                        <p>
+                                        Lptoken added by initial liquidity and lptoken added by 20% liquidity are locked to achieve the goal and encourage the project team to promote the project. Before the goal is achieved, the project team has no LOSS and no income. After reaching the goal, the project team has more BNB, less LOSS then can't break the price.
+                                        </p>
+                                        <br />
+                                        <br />
+                                        <storng>
+                                        <b>What about the withdrawal liquidity of the project team after reaching the target?</b>
+                                        </storng>
+                                        <p>
+                                        The liquidity provided by the project team only accounts for 20%, which will not have a great impact on the liquidity. The fee will be 2% by then, and the mutual circulation of DEX and CEX will be achieved. CEX can provide a large amount of liquidity.
+                                        </p>
+                                        <br />
+                                        <br />
+                                        <storng>
+                                        <b>What is the fee for CEX?</b>
+                                        </storng>
+                                        <p>
+                                        The fee remains unchanged, 100% is reduced linearly. Because the fee is too high, they are not circulating to each other, which means CEX purchases from DEX and sells futures to CEX users.
+                                        </p>
+                                        <br />
+                                        <br />
+                                        <storng>
+                                        <b>Why is the fee so high?</b>
+                                        </storng>
+                                        <p>
+                                        On the one hand, filtering out speculative users, all the people who come in are more religious; On the other hand, it can maintain the stability of currency price, less selling currency, and only half of the currency selling has little impact on the market. If the currency price falls, it not only deflation but also rewards lptoken holders, and encourages more users to add liquidity, which also helps to stabilize the currency price.
+                                        </p>
+                                        <br />
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>most of code is opensource, some parts will be opensource after audit</h4>
                             {/* <div className="row">
                                 <div className="col-lg-12">
                                     <div className="slick-space-gutter--15 slickdot--20">
@@ -343,14 +454,14 @@ class CreativeLanding extends Component {
                                 </div> */}
                                 <div className="col-lg-12">
                                     <div className="about-inner inner">
-                                        <div className="section-title">
+                                        {/* <div className="section-title">
                                             <h3 className="title" style={{ color: "#f00" }}>
                                                 郑重声明
                                             </h3>
                                             <p className="description" style={{ color: "#000" }}>
                                                 程序员水平有限，代码可能有导致归零的风险，通过安全审计后开源，别重仓！别重仓！别重仓！
                                             </p>
-                                        </div>
+                                        </div> */}
                                         {/* <div className="row mt--30">
                                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                                 <div className="about-us-list">
