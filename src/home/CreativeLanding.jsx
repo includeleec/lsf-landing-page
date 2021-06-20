@@ -142,9 +142,9 @@ class CreativeLanding extends Component {
                                         <a href="#home">home</a>
                                     </li>
                                     {/* <li><a href="#service">Service</a></li> */}
-                                    <li>
+                                    {/* <li>
                                         <a href="#about">about</a>
-                                    </li>
+                                    </li> */}
                                     {/* <li><a href="#portfolio">Portfolio</a></li>
                                     <li><a href="#team">Team</a></li>
                                     <li><a href="#testimonial">Testimonial</a></li>
@@ -152,11 +152,11 @@ class CreativeLanding extends Component {
                                     <li><a href="#contact">Contact</a></li> */}
                                 </Scrollspy>
                             </nav>
-                            {/* <div className="header-btn">
-                                <a className="rn-btn" href="https://themeforest.net/checkout/from_item/25457315?license=regular">
-                                    <span>buy now</span>
+                            <div className="header-btn">
+                                <a className="rn-btn" size="sm" href="https://loss-swap.netlify.app/">
+                                    <span>use Loss</span>
                                 </a>
-                            </div> */}
+                            </div>
                             {/* Start Humberger Menu  */}
                             <div className="humberger-menu d-block d-lg-none pl--20">
                                 <span
