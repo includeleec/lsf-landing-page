@@ -1,9 +1,9 @@
 import React from 'react';
-import {FaTelegram} from "react-icons/fa";
+import {FaTelegram, FaTwitter} from "react-icons/fa";
 
 const SocialShare = [
     {Social: <FaTelegram /> , link: 'https://t.me/lossfinance'},
-    // {Social: <FaTwitter /> , link: 'https://twitter.com/'},
+    {Social: <FaTwitter /> , link: 'https://twitter.com/LossFinance'},
 ]
 
 const FooterTwo = () => {
