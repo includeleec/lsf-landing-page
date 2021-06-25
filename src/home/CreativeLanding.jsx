@@ -396,12 +396,27 @@ class CreativeLanding extends Component {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="section-title service-style--3 text-left mb--15 mb_sm--0">
+                                        <h2 className="title">Info</h2>
+                                        <storng>
+                                         <h3> dex.guru:</h3> 
+                                        </storng>
+                                        <p>
+                                            <a href="https://dex.guru/token/0x7a95330742e203a2e14e4b0ebd765e03883b7508-bsc" target="_band"> https://dex.guru/token/0x7a95330742e203a2e14e4b0ebd765e03883b7508-bsc</a>
+                                        </p>
+                                        <br />
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-lg-12">
+                                    <div className="section-title service-style--3 text-left mb--15 mb_sm--0">
                                         <h2 className="title">Open Source</h2>
                                         <storng>
                                          <h3> LOSS contract code:</h3> 
                                         </storng>
                                         <p>
-                                            <a href="https://bscscan.com/address/0x7a95330742e203a2e14e4b0ebd765e03883b7508#code"> https://bscscan.com/address/0x7a95330742e203a2e14e4b0ebd765e03883b7508#code</a>
+                                            <a href="https://bscscan.com/address/0x7a95330742e203a2e14e4b0ebd765e03883b7508#code" target="_band"> https://bscscan.com/address/0x7a95330742e203a2e14e4b0ebd765e03883b7508#code</a>
                                         </p>
                                         <br />
                                         <br />
@@ -409,7 +424,7 @@ class CreativeLanding extends Component {
                                          <h3> RewardPool contract code:</h3> 
                                         </storng>
                                         <p>
-                                            <a href="https://bscscan.com/address/0x5D220bC580E370b568f6b0d4d1A9Ca056f8B878A#code"> https://bscscan.com/address/0x5D220bC580E370b568f6b0d4d1A9Ca056f8B878A#code</a>
+                                            <a href="https://bscscan.com/address/0x5D220bC580E370b568f6b0d4d1A9Ca056f8B878A#code" target="_band"> https://bscscan.com/address/0x5D220bC580E370b568f6b0d4d1A9Ca056f8B878A#code</a>
                                         </p>
                                         <br />
                                         <br />
@@ -417,7 +432,7 @@ class CreativeLanding extends Component {
                                          <h3> PancakeLiquidityRouter contract code: </h3> 
                                         </storng>
                                         <p>
-                                            <a href="https://bscscan.com/address/0xef6b7a04bf73f8674b5b7bcdd460778862dd5b90#code"> https://bscscan.com/address/0xef6b7a04bf73f8674b5b7bcdd460778862dd5b90#code</a>
+                                            <a href="https://bscscan.com/address/0xef6b7a04bf73f8674b5b7bcdd460778862dd5b90#code" target="_band"> https://bscscan.com/address/0xef6b7a04bf73f8674b5b7bcdd460778862dd5b90#code</a>
                                         </p>
                                         <br />
                                         <br />
@@ -425,7 +440,7 @@ class CreativeLanding extends Component {
                                          <h3> PancakeLiquidityRouter contract code: </h3> 
                                         </storng>
                                         <p>
-                                            <a href="https://bscscan.com/address/0x822ca080e094bf068090554a19bc3d6618c800b3#code"> https://bscscan.com/address/0x822ca080e094bf068090554a19bc3d6618c800b3#code</a>
+                                            <a href="https://bscscan.com/address/0x822ca080e094bf068090554a19bc3d6618c800b3#code" target="_band"> https://bscscan.com/address/0x822ca080e094bf068090554a19bc3d6618c800b3#code</a>
                                         </p>
                                         <br />
                                         <br />
