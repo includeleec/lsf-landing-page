@@ -141,7 +141,7 @@ class CreativeLanding extends Component {
                                     <li>
                                         <a href="#home">home</a>
                                     </li>
-                                    {/* <li><a href="#service">Service</a></li> */}
+                                    <li><a target="_band" href="http://www.dexduck.app/token/0x7A95330742e203a2e14e4b0EbD765E03883b7508">dexduck</a></li>
                                     {/* <li>
                                         <a href="#about">about</a>
                                     </li> */}
@@ -153,7 +153,7 @@ class CreativeLanding extends Component {
                                 </Scrollspy>
                             </nav>
                             <div className="header-btn">
-                                <a className="rn-btn" size="sm" href="https://loss-swap.netlify.app/">
+                                <a className="rn-button-style--2 rn-btn-small" href="https://loss-swap.netlify.app/">
                                     <span>use Loss</span>
                                 </a>
                             </div>
